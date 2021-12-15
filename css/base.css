@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icomoon.ttf);
+}
+
+:root {
+    --branco: hsl(0, 0%, 100%);
+    
+    --bg-chamada: #F2F2F2;
+}
+
+body {
+    font-family: 'Nunito Sans', 'icones';
+
+    background-color: var(--bg-chamada);
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}

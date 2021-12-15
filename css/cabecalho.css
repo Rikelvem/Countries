@@ -1,0 +1,30 @@
+.cabecalho {
+    background-color: var(--branco);
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 32px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cabecalho__titulo {
+    font-size: 16px;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.cabecalho__dark-mode {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cabecalho__dark-mode::before {
+    content: "\e901";
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+
+    padding-right: 8px;
+}
