@@ -1,0 +1,53 @@
+.buscar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 32px;
+
+    box-sizing: border-box;
+}
+
+.buscar__lupa {
+    position: absolute;
+
+    display: flex;
+    align-self: flex-start;
+
+    padding-top: 15px;
+    padding-left: 56px;
+}
+
+.buscar__lupa::before {
+    color: var(--cinza);
+
+    content: "\e902";
+
+    font-size: 24px;
+}
+
+.buscar__paises {
+    box-sizing: border-box;
+
+    padding-left: 70px;
+
+    border-radius: 5px;
+
+    width: 90vw;
+    height: 14vw;
+
+    max-height: 50px;
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.06);
+}
+
+::-webkit-input-placeholder {
+    color: var(--cinza);
+
+    font-size: 14px;
+    font-weight: 300;
+
+    box-sizing: border-box;
+
+    padding-left: 5px;
+}

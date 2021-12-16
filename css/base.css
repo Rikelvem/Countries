@@ -5,7 +5,9 @@
 
 :root {
     --branco: hsl(0, 0%, 100%);
-    
+    --preto: hsl(200, 15%, 8%);
+    --cinza: hsl(0, 0%, 52%);
+
     --bg-chamada: #F2F2F2;
 }
 
