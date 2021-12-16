@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/cabecalho.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/busca.css">
+        <link rel="stylesheet" href="css/filtro.css">
     </head>
 
     <body>
@@ -24,13 +25,21 @@
             <section>
                 <form action="" >
                     <div class="buscar">
-                        <input type="text" placeholder="Busque por um país..." class="buscar__paises">
-                        <i class="buscar__lupa"></i>
+                        <input type="text" placeholder="Busque por um país..." class="buscar__paises" id="buscar__paises" name="buscar__paises">
+                        <label for="buscar__paises" class="buscar__lupa"><i></i></label>
                     </div>
                 </form>
             </section>
 
             <section>
+                <fieldset>
+                    <legend for="filtro">Teste</legend>
+                    <select name="filtro" id="filtro">
+                        <option>Teste</option>
+                        <option>Testando</option>
+                        <option>Alo</option>
+                    </select>
+                </fieldset>
             </section>
         </main>
     </body>

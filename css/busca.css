@@ -18,7 +18,7 @@
     padding-left: 56px;
 }
 
-.buscar__lupa::before {
+.buscar__lupa i::before {
     color: var(--cinza);
 
     content: "\e902";
