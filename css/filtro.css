@@ -1,0 +1,54 @@
+.filtro {
+    display: flex;
+
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.filtro__titulo {
+    padding: 16px 24px;
+
+
+    background-color: var(--branco);
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    color: var(--preto);
+    font-weight: 600;
+
+    display: flex;
+
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filtro__titulo i::before {
+    content: "\e903";
+
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.filtro__lista {
+    margin-top: 5px;
+
+    background-color: var(--branco);
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    color: var(--preto);
+    font-weight: 600;
+
+    padding: 16px 24px;
+}
+
+.filtro__nome {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+
+    box-sizing: border-box;
+    cursor: pointer;
+}

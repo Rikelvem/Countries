@@ -30,17 +30,46 @@
                     </div>
                 </form>
             </section>
+            <div id="filtro"></div>
+            <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+            <script>
+                new Vue({
+                    el: '#filtro',
+                    template: `
+                    <article class="filtro">
+                    <div class="filtro__botao">
+                        <button class="filtro__titulo" @click.set.prevent="toggle()">Filtar por região<i></i></button>
 
-            <section>
-                <fieldset>
-                    <legend for="filtro">Teste</legend>
-                    <select name="filtro" id="filtro">
-                        <option>Teste</option>
-                        <option>Testando</option>
-                        <option>Alo</option>
-                    </select>
-                </fieldset>
-            </section>
+                        <div v-show="is0pen" class="filtro__lista">
+                            <nav>
+                                <ul>
+                                    <li class="filtro__nome">Africa</li>
+                                    <li class="filtro__nome">America</li>
+                                    <li class="filtro__nome">Asia</li>
+                                    <li class="filtro__nome">Europa</li>
+                                    <li class="filtro__nome">Oceania</li>
+                                </ul>
+                            </nav>    
+                        </div>
+                    </div>
+                    </article>
+                    `
+                    ,
+                    name: 'Dropdown',
+
+                        data() {
+                            return {
+                                is0pen: false,
+                            };
+                        },
+
+                        methods: {
+                            toggle() {
+                                this.is0pen = !this.is0pen;
+                            },
+                        },
+                })
+            </script>
         </main>
     </body>
 </html>
