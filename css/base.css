@@ -11,6 +11,14 @@
     --bg-chamada: #F2F2F2;
 }
 
+.dark-mode:root {
+    --branco: hsl(209, 23%, 22%);
+    --preto: hsl(0, 0%, 100%);
+    --cinza: hsl(0, 0%, 52%);
+
+    --bg-chamada: hsl(207, 26%, 17%);
+}
+
 body {
     font-family: 'Nunito Sans', 'icones';
 

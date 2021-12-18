@@ -1,0 +1,55 @@
+.paises {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.paises__cartao {
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--branco);
+
+    box-sizing: border-box;
+
+    color: var(--preto);
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.06);
+}
+
+.paises__conteudo {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.paises__imagem {
+    width: 70vw;
+}
+
+.paises__titulo {
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    padding-left: 12px;
+}
+
+.paises__sub-titulo {
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.paises__sub-titulo-capital {
+    margin-bottom: 20px;
+}
+
+.paises__descricao {
+    display: inline-block;
+    font-weight: 300;
+}

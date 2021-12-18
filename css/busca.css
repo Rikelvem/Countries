@@ -6,6 +6,8 @@
     margin-top: 32px;
 
     box-sizing: border-box;
+
+    color: var(--preto);
 }
 
 .buscar__lupa {
@@ -16,10 +18,12 @@
 
     padding-top: 15px;
     padding-left: 56px;
+
+    color: var(--preto);
 }
 
 .buscar__lupa i::before {
-    color: var(--cinza);
+    color: var(--preto);;
 
     content: "\e902";
 
@@ -39,10 +43,12 @@
     max-height: 50px;
 
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.06);
+
+    background-color: var(--branco);
 }
 
 ::-webkit-input-placeholder {
-    color: var(--cinza);
+    color: var(--preto);
 
     font-size: 14px;
     font-weight: 300;

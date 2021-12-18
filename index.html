@@ -14,16 +14,20 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/busca.css">
         <link rel="stylesheet" href="css/filtro.css">
+        <link rel="stylesheet" href="css/paises.css">
     </head>
 
     <body>
         <header class="cabecalho container">
             <h1 class="cabecalho__titulo">Onde no mundo?</h1>
-            <button class="cabecalho__dark-mode">Modo escuro</button>
+            <div>
+                <input type="checkbox" name="Dark mode" id="switch">
+            </div>
+            <button class="cabecalho__dark-mode" type="submit" id="switch">Modo escuro</button>
         </header>
         <main>
             <section>
-                <form action="" >
+                <form action="">
                     <div class="buscar">
                         <input type="text" placeholder="Busque por um país..." class="buscar__paises" id="buscar__paises" name="buscar__paises">
                         <label for="buscar__paises" class="buscar__lupa"><i></i></label>
@@ -70,6 +74,95 @@
                         },
                 })
             </script>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/germany-32989.svg" alt="Bandeira da Alemanha" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Alemanha</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">81,770,900</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">Europa</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Berlim</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/united-33135.svg" alt="Bandeira dos Estados Unidos" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Estados Unidos</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">323,947,000</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">America</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Washington, D.C.</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/brazil-32937.svg" alt="Bandeira do Brasil" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Brasil</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">206,135,893</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">America</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Brasilia</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/iceland-33152.svg" alt="Bandeira da Islandia" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Islândia</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">334,300</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">Europa</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Reykjavík</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/afghanistan-32928.svg" alt="Bandeira do Afeganistão" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Afeganistão</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">27,657,145</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">Asia</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Kabul</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/aland-32908.svg" alt="Bandeira das Ilhas Åland" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Ilhas Åland</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">28,875</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">Europa</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Mariehamn</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/albania-32909.svg" alt="Bandeira da Albania" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Albania</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">2,886,026</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">Europa</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Tirana</p></h3>
+                        </div>
+                </article>
+            </section>
+            <section class="paises container">
+                <article class="paises__cartao">
+                        <img src="img/flags-countries/algeria-32972.svg" alt="Bandeira da Argélia" class="paises__imagem">
+                        <div class="paises__conteudo">
+                            <h2 class="paises__titulo">Argélia</h2>
+                            <h3 class="paises__sub-titulo">População: <p class="paises__descricao">40,400,000</p></h3>
+                            <h3 class="paises__sub-titulo">Região: <p class="paises__descricao">Africa</p></h3>
+                            <h3 class="paises__sub-titulo paises__sub-titulo-capital">Capital: <p class="paises__descricao">Algiers</p></h3>
+                        </div>
+                </article>
+            </section>
+            <script src="js/index.js"></script>
         </main>
     </body>
 </html>
