@@ -30,3 +30,33 @@
 
     padding-right: 8px;
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho__titulo {
+        font-size: 20px;
+    }
+
+    .cabecalho__dark-mode {
+        font-size: 20px;
+    }
+
+    .cabecalho__dark-mode::before {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__titulo {
+        padding-left: 32px;
+        font-size: 32px;
+    }
+
+    .cabecalho__dark-mode {
+        font-size: 20px;
+        padding-right: 32px;
+    }
+
+    .cabecalho__dark-mode::before {
+        font-size: 20px;
+    }
+}
