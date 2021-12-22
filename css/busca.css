@@ -23,7 +23,7 @@
 }
 
 .buscar__lupa i::before {
-    color: var(--preto);;
+    color: var(--preto);
 
     content: "\e902";
 
